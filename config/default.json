@@ -1,0 +1,4 @@
+{
+    "MongoUri" : "mongouri",
+    "baseUri": "https://localhost:5000"
+}
