@@ -1,4 +1,4 @@
 {
-    "MongoUri" : "mongouri",
-    "baseUri": "https://localhost:5000"
+  "MongoUri": "mongodb://localhost/Fblog",
+  "baseUrl": "https://localhost:5000"
 }
