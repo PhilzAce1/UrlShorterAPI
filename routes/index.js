@@ -13,10 +13,10 @@ router.get('/:code', async (req, res) => {
         payload: url.longUrl,
       });
     } else {
-      return res.status(404).Json({ success: false, msg: 'No url found' });
+      return res.status(404).json({ success: false, msg: 'No url found' });
     }
   } catch (error) {
-    console.log(err);
+    console.log(error);
     res.status(500).json({ success: false, msg: 'Server Error' });
   }
 });

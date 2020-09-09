@@ -1,13 +1,15 @@
 const express = require('express');
 const connectDb = require('./config/db');
-
+const cors = require('cors');
+const compression = require('compression');
 const app = express();
 
 //connect to datebase
 connectDb().then(() => console.log('Database connected successfully'));
 
+app.use(cors());
 app.use(express.json({ extended: true }));
-
+app.use(compression());
 //define Routes
 app.use('/', require('./routes/index'));
 app.use('/api/url', require('./routes/url'));
