@@ -1,4 +1,4 @@
 {
-  "MongoUri": "mongodb://localhost/Fblog",
-  "baseUrl": "https://localhost:5000"
+  "MongoUri": "mongodb+srv://philzace:philzace1@cluster0-ojdiw.mongodb.net/Ethertech?retryWrites=true&w=majority",
+  "baseUrl": "https://philzurlshortner.herokuapp.com"
 }
